@@ -1,0 +1,124 @@
+.selectm23{
+    min-width: 150px;
+    border: solid 1px #ddd;
+    height: auto;
+    min-height: 28px;
+    padding: 0 2px;
+    height: auto;
+    position: relative;
+    /*background-image: linear-gradient(#eee 1%, #fff 15%);*/
+}
+
+.selectm23 .selectm23-input{
+    width: 100% !important;
+    min-width: 10px !important;
+    border: solid 1px #ccc !important;
+    padding: 7px 3px !important;
+    line-height: 0 !important;
+    min-height: available !important;
+    background-color: transparent !important;
+    margin: 3px 0 !important;
+}
+
+.selectm23 .selectm23-input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.selectm23-selecton{
+    position: relative;
+}
+
+.selectm23 .selectm23-options{
+    width: 100%;
+    position: absolute;
+    max-height: 250px;
+    overflow-y: auto;
+    margin: 1px 0 0 -1px;
+    background: #fff;
+    /* z-index: 9999; */
+}
+
+.selectm23-option{
+    padding: 10px 5px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    color: #333;
+    font-size: 14px;
+}
+
+.selectm23-option-selected,
+.selectm23-option:hover{
+    background: #e7f3f7;
+    color: #7994fa;
+}
+
+.selectm23-selected{
+    font-size: var(--woof-sd-mark_font_size);
+    display: inline-block;
+    position: relative;
+    margin: 2px 2px 2px 1px !important;
+    padding: var(--woof-sd-padding_top) var(--woof-sd-padding_right) var(--woof-sd-padding_bottom) var(--woof-sd-padding_left);
+    border: 1px solid #eee;
+    max-width: 100%;
+    width: var(--woof-sd-selected_width);
+    border-radius: 0;
+    background-color: whitesmoke;
+    color: var(--woof-sd-mark_color);
+    line-height: normal;
+    cursor: move;
+    box-sizing: border-box;
+}
+
+.selectm23-selecton-multi .selectm23-selected{
+    max-width: fit-content;
+}
+
+.selectm23-selected-cross{
+    position: absolute;
+    text-shadow: 1px 0;
+    padding: 5px;
+    color: #ccc;
+    top: 5px;
+    right: -2px;
+    cursor: pointer;
+    line-height: 0;
+    font-size: var(--woof-sd-cross_font_size);
+}
+
+
+.selectm23-ghost{
+    border: dashed 1px orange;
+    background: green;
+    color: #fff;
+}
+
+.selectm23-ghost .selectm23-selected-cross{
+    display: none;
+}
+
+.selectm23-hidden{
+    display: none !important;
+}
+
+.selectm23-disabled{
+    color: #999;
+}
+
+.selectm23-disabled:hover{
+    background: none;
+    color: #999;
+}
+
+.selectm23-padding-1{
+    padding-left: 15px;
+}
+
+.selectm23-padding-2{
+    padding-left: 25px;
+}
+
+.selectm23-padding-3{
+    padding-left: 35px;
+}
+
